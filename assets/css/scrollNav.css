@@ -1,0 +1,16 @@
+.sticky-navbar{
+    background-color: #fff !important;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.261);
+}
+
+.text-black{
+    color: var(--primary-color);
+}
+
+.logo{
+    color: var(--primary-color);
+}

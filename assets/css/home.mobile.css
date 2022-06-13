@@ -1,0 +1,544 @@
+
+@media only screen and (max-width:1100px){
+    /* *{
+        display: none;   
+    } */
+    html, body{
+        width: 100%;
+        max-height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* navigation */
+    nav{
+        justify-content: space-between;
+    }
+
+    #navbar{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    /* #scrollTop-btn{
+        position: fixed;
+        top: 0 ;
+        left: 100%;
+    } */
+    nav .all-links, .icon-container{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+    }
+    .logo span{
+        color: var(--primary-color);
+    }
+    .hamburger span{
+        width: 30px;
+        height: 5px;
+        margin-bottom: -1px;
+        background-color: var(--primary-color);
+    }
+    
+
+    .hero-background{
+        display: none;
+    }
+
+    .hero-image-2{
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+        
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.181));
+        animation: slideBy 0.5s ease-in;   
+    }
+
+    .hero-image-1{
+        display: none;
+    }
+    .hero{
+        margin: 1rem 0 0 -5rem;
+        width: 100%;
+        height: 60vh;
+    }
+    .hero-description {
+        margin: -15rem -5rem 0 22rem;
+    }
+    .hero-description h2{
+        color: rgb(47, 47, 47);
+    }
+    .hero-description p{
+        color:rgb(47, 47, 47);
+    }
+    .about-intro{
+        flex-direction: column;
+        margin-top: -18rem;
+    }
+    .descriptions h2{
+        text-align: center;
+    }
+
+    .descriptions p{
+
+        text-align: center;
+        margin: 1rem 0 0 0;
+    }
+    .about-intro img{
+        margin: 2rem 0 0 0;
+        width: 100%;
+    }
+
+    .stakeholders-heading{
+        margin: 5rem 0 0 0;
+    }
+    
+    .container{
+        /* border: 2px solid red; */
+        position: relative;
+    }
+
+    .swiper-button-prev{
+        position: absolute;
+        top: 20%;
+        left: 0;
+        padding-top:15rem;   
+    }
+
+    .swiper-pagination{
+        margin: 15rem 0 0 0;
+    }
+    .swiper-button-next{
+        margin: 0 0 0 50px;
+    }
+
+    .product-phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-x{
+        width: 80vh;
+        margin: 0 0 0 5rem;
+        height: 100vh;
+    }
+
+    .phone-xxx{
+        margin: -15rem 0 0 0;
+        width: 50vh;
+    }
+
+    .phone-x a{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 16rem;
+    }
+
+    .iP7 .phone-image .iPhone-7-image{
+        
+        width:300px;
+        margin: -1rem 0 0 0;
+    }
+    .iP7 .phone-image .iPhone-7-image:hover{
+        
+        width:320px;
+    }
+    .Se7 .phone-image .phone-xxx{
+        margin: -4rem 0 0 0;
+        width:340px;
+    }
+
+    .Se7 .Se7-text{
+        margin: -2rem 0 0 0;
+    }
+    .about-phone .google-pix{
+        width: 120px;
+        margin: 0 0 0 110px;
+    }
+    .see-more-phones{
+        width: 50%;
+        margin: 0 0 0 17rem;
+    }
+
+    .product-laptop{
+        flex-direction: column;
+        margin: 0 0 0 3rem;
+    }
+    .product-laptop a{
+        height: 80vh;
+        margin: 5rem 0 0 17rem;
+    }
+    .laptop-image .lapT1{
+        width: 250px;
+        margin: 1rem 0 0 3.5rem;
+    }
+
+    .laptop-image .lapT1:hover{
+        width: 270px;
+    }
+
+    .about-laptop .hp-name{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .about-laptop .acer-p{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .MB-P .about-laptop{
+        margin: 2rem 0 0 0;
+    }
+
+    .AS-3 button{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .about-laptop .MackBook{
+        margin: 0 0 0 10rem;
+    }
+
+    .about-laptop .Price{
+        margin: 1rem 0 0 9rem;
+    }
+
+    .Hp-X button{
+        margin: 1rem 0 0 9rem;
+    }
+    .see-more-laptop{
+        margin: 0 0 0 27rem;
+    }
+    .service-box h2{
+        color: var(--primary-color);
+    }
+    .service-box i{
+        margin: 1rem 0 1rem 29rem;
+        font-size: 40px;
+        color: var(--secondary-color);
+    }
+    /* services */
+    .our-services-container, .first-row-service, .second-row-services{
+        display: grid;
+        row-gap: 20px;
+    }
+    .first-row-service{
+        justify-content: space-around;
+        margin: -2rem 0 0 0;
+    }
+
+    .pricing-container{
+        margin: 10rem 0 0 0;
+    }
+    .pricing-options{
+        display: grid;
+        /* margin: 0 0 0 23rem; */
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .choose1, .choose2{
+        margin: 1rem 0 0 3rem;
+    }
+
+    /* contact */
+    .contact-form{
+        margin: 2rem 0 0 17rem;
+    }
+    .contact-form input{
+        width: 230px;
+        margin: 0 0 0 0.5rem;
+    }
+    .contact-form textarea{
+        width: 480px;
+    }
+
+    .contact-form button{
+        margin: 0 0 0 10rem;
+    }
+    .e-tech-socials{
+        margin: 0 -5rem 0 15rem;
+    }
+    
+    /* key frames */
+     @keyframes slideBy {
+        0%{
+            opacity: 0;
+            transform: translateX(-300px);
+        }
+
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    } 
+}
+
+/* android */
+@media only screen and (max-width:600px){
+    /* html, body{
+        width: 100%;
+        max-height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    } */
+    nav{
+        justify-content: space-between;
+
+    }
+
+    nav .all-links, .icon-container{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+    }
+    .logo span{
+        color: var(--primary-color);
+    }
+    .hamburger span{
+        width: 30px;
+        height: 5px;
+        margin-bottom: -1px;
+        background-color: var(--primary-color);
+    }
+    
+
+    .hero-background{
+        display: none;
+    }
+
+    .hero-image-2{
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+        
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.181));
+        animation: slideBy 0.5s ease-in;   
+    }
+
+    .hero-image-1{
+        display: none;
+    }
+    .hero{
+        margin: 1rem 0 0 -5rem;
+        width: 100%;
+        height: 60vh;
+    }
+    .hero-description {
+        margin: -15rem -5rem 0 22rem;
+    }
+    .hero-description h2{
+        color: rgb(47, 47, 47);
+    }
+    .hero-description p{
+        color:rgb(47, 47, 47);
+    }
+    .about-intro{
+        flex-direction: column;
+        margin-top: -18rem;
+    }
+    .descriptions h2{
+        text-align: center;
+    }
+
+    .descriptions p{
+        text-align: center;
+        margin: 1rem 0 0 0;
+    }
+    .about-intro img{
+        margin: 2rem 0 0 0;
+        width: 100%;
+    }
+
+    .stakeholders-heading{
+        margin: 5rem 0 0 0;
+    }
+
+    .content{
+        margin: 0 -5rem 0 -1rem;
+        width: 100%;
+    }
+
+    .product-phone{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 -12rem;
+    }
+    .phone-x{
+        width: 80vh;
+        margin: 0 0 0 1rem;
+        height: 100vh;
+    }
+
+    .phone-xxx{
+        margin: -15rem 0 0 0;
+        width: 50vh;
+    }
+
+    .phone-x a{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iP7 .phone-image .iPhone-7-image{
+        
+        width:300px;
+        margin: -1rem 0 0 0;
+    }
+    .iP7 .phone-image .iPhone-7-image:hover{
+        
+        width:320px;
+    }
+    .Se7 .phone-image .phone-xxx{
+        margin: -4rem 0 0 0;
+        width:340px;
+    }
+
+    .Se7 .Se7-text{
+        margin: -2rem 0 0 0;
+    }
+    .about-phone .google-pix{
+        width: 120px;
+        margin: 0 0 0 110px;
+    }
+    .see-more-phones{
+        margin: 3rem 0 0 9rem;
+    }
+
+    .product-laptop{
+        flex-direction: column;
+        margin: 0 0 0 2rem;
+    }
+    .AS-3, .product-laptop a{
+        height: 80vh;
+        margin: 5rem 0 0 1rem;
+    }
+
+    .AS-3, .MB-P, .Hp-X{
+        margin: 0 0 0 -15rem;
+    }
+    .laptop-image .lapT1{
+        width: 250px;
+        margin: 1rem 0 0 3.5rem;
+    }
+
+    .laptop-image .lapT1:hover{
+        width: 270px;
+    }
+
+    .about-laptop .hp-name{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .about-laptop .acer-p{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .MB-P .about-laptop{
+        margin: 2rem 0 0 0;
+    }
+
+    .AS-3 button{
+        margin: 1rem 0 0 8rem;
+    }
+
+    .about-laptop .MackBook{
+        margin: 0 0 0 10rem;
+    }
+
+    .about-laptop .Price{
+        margin: 1rem 0 0 9rem;
+    }
+
+    .Hp-X button{
+        margin: 1rem 0 0 9rem;
+    }
+    .see-more-laptop{
+        margin: 0 10rem 0 14.5rem;
+    }
+    .service-box h2{
+        color: var(--primary-color);
+    }
+    .service-box i{
+        margin: 1rem 0 1rem 13rem;
+        font-size: 40px;
+        color: var(--secondary-color);
+    } 
+    
+    .our-services-container, .first-row-service, .second-row-services{
+        display: grid;
+        row-gap: 20px;
+    }
+    .first-row-service{
+        justify-content: space-around;
+        margin: -2rem 0 0 0;
+    }
+
+    .pricing-container{
+        margin: 10rem 0 0 0;
+    }
+    .pricing-options{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 0 0 3rem; */
+    }
+    .price-tag{
+        margin: 0 0 0 9rem;
+    }
+    .standard-btn{
+        margin: 1rem 0 0 9rem;
+    }
+    .choose1, .choose2{
+        margin: 1rem 0 0 9rem;
+    }
+
+    .scroll2top{
+        position: sticky;
+        left: 100%;
+        top: 50%;
+        z-index: 1;
+    }
+    
+    .contact-form{
+        margin: 0 0 0 3rem;
+    }
+    .contact-form input{
+        width: 230px;
+        margin: 0 0 0 0.5rem;
+    }
+    .contact-form textarea{
+        width: 480px;
+    }
+
+    .contact-form button{
+        margin: 0 0 0 10rem;
+    }
+    .e-tech-socials{
+        margin: 0 -5rem 0 5rem;
+    }
+    
+    
+    @keyframes slideBy {
+        0%{
+            opacity: 0;
+            transform: translateX(-300px);
+        }
+
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    } 
+    /* body{
+        display: none;
+    } */
+}
+    
